@@ -18,6 +18,7 @@
     "dist/index.js"
   ],
   "dependencies": {
+    "fix-path": "^2.1.0",
     "styled-jsx": "2.2.6"
   },
   "devDependencies": {

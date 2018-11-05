@@ -1,5 +1,8 @@
 import { exec } from 'child_process';
+import * as fixPath from 'fix-path';
 import { promisify } from 'util';
+
+fixPath();  // fix inheriting env vars https://github.com/electron/electron/issues/8997
 
 const execAsync = promisify(exec);
 
