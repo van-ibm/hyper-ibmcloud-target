@@ -1,6 +1,6 @@
 {
   "name": "hyper-ibmcloud-target",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Hyper plugin that displays IBM Cloud targets as a status line.",
   "keywords": [
     "hyper.app",
