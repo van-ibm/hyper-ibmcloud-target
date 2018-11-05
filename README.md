@@ -15,7 +15,7 @@ Hyper IBM Cloud Target is a status line plugin for [Hyper](https://hyper.is/).
 
 To install, edit `~/.hyper.js` and add `"hyper-ibmcloud-target"` to the `plugins` list.
 
-```json
+```javascript
 plugins: [
   "hyper-ibmcloud-target",
 ],
@@ -25,7 +25,7 @@ plugins: [
 
 To configure the plugin, add the following to your `config` property in `~/.hyper.js`.
 
-```json
+```javascript
 ibmcloud: {
   sso: true,
   ui: {
