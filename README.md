@@ -1,11 +1,13 @@
 Hyper IBM Cloud Target
 =========
 
-Hyper IBM Cloud Target is a status line plugin for [Hyper](https://hyper.is/).
+Hyper IBM Cloud Target is a status line plugin for [Hyper](https://hyper.is/). 
 
 - Displays [IBM Cloud CLI](https://console.bluemix.net/docs/cli/index.html#overview) configured targets
 - Automatically fetches accounts, resource groups, orgs, and spaces when targets change
 - Select a target to run the corresponding CLI command
+
+**Target supports Hyper 2.1.0, which is not yet posted for download.** Use the [steps](https://github.com/zeit/hyper#contribute) on the Hyper GitHub page to build Hyper. (It's easier than you'd think.)
 
 ![](screenshot.png)
 
